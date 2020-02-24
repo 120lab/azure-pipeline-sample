@@ -1,0 +1,146 @@
+<html>
+<head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
+    <style>
+        .contact-us {
+            padding: 50px;
+            background-color: #ffffff;
+            box-shadow: -2px 40px 34px -24px rgba(0, 0, 0, 0.2);
+            border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+            border: solid 7px #4c9cef;
+            border-left-color: #f7639a;
+            border-right-color: #f7639a;
+        }
+        .contact-us-detail {
+            position: absolute;
+            left: 83%;
+            top: -4%;
+            background-color: #4c9cef;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: 600;
+        }
+        .contact-us-detail:hover {
+            background-color: #f7639a;
+        }
+        .contact-us-detail a {
+            color: #ffffff;
+        }
+        .contact-us-detail a:hover {
+            color: #ffffff;
+        }
+        .form-group {
+            margin-bottom: 25px;
+        }
+        .form-control {
+            border: 2px solid transparent;
+            height: 50px;
+            border-radius: 2px;
+            -webkit-border-radius: 2px;
+            -moz-border-radius: 2px;
+            -ms-border-radius: 2px;
+            -o-border-radius: 2px;
+            -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+            -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+            -ms-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+            -o-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+            box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+            -webkit-transition: all 150ms ease-in-out 0s;
+            -moz-transition: all 150ms ease-in-out 0s;
+            -ms-transition: all 150ms ease-in-out 0s;
+            -o-transition: all 150ms ease-in-out 0s;
+            transition: all 150ms ease-in-out 0s;
+        }
+        .form-control:focus {
+            border-color: #171717;
+            -webkit-box-shadow: none;
+            -moz-box-shadow: none;
+            -ms-box-shadow: none;
+            -o-box-shadow: none;
+            box-shadow: none;
+        }
+        .form-control:focus {
+            border-color: #4c9cef;
+            border-width: 2px;
+        }
+        .margin-top-bottom {
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        .custom-margin {
+            margin-top: 80px;
+        }
+        .button {
+            border: none;
+            border-radius: 5px;
+            font-family: inherit;
+            font-size: 17px;
+            color: inherit;
+            background: none;
+            cursor: pointer;
+            padding: 20px 60px;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 700;
+            outline: none;
+            position: relative;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        .button:after {
+            content: '';
+            position: absolute;
+            z-index: -1;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+        }
+        .button-style {
+            border: 3px solid #fff;
+            color: #fff;
+        }
+        .button-style:hover,
+        .button-style:active,
+        .button-style:focus {
+            color: #ffffff;
+            background: #4c9cef;
+        }
+        .button-style-color-2:hover,
+        .button-style-color-2:active,
+        .button-style-color-2:focus {
+            color: #ffffff;
+            background: #f7639a;
+        }
+        .button-style-dark {
+            border: 3px solid #000000;
+            color: #000000;
+        }
+        .pattern-bg {
+            background: url(https://s23.postimg.org/klq72xovv/pattern_bg.png);
+            background-repeat: repeat;
+        }
+    </style>
+</head>
+<body>
+    <div class="row margin-top-bottom">
+        <div class="col-md-offset-3 col-sm-offset-2 col-md-6 col-sm-8">
+            <div class="row">
+                <div class="contact-us-detail"><a href="mailto:idan.gvili@gmail.com">Xml Spy Support</a></div>                
+
+                <form class="contact-us pattern-bg" action="/upload" enctype="multipart/form-data" method="post">
+                    <span>FileName : <input type="text" name="fileName" style="margin:10px;" value="test\205000513765347EMPONG000002201804081302050002.DAT"/> </span>
+                    </br>
+                    <span>Mispar-Zihuy-Maasik : <input type="text" name="misparZihuyMaasik" value="27029867" style="margin:10px;" /> </span>
+                    </br>
+                    <input type="submit" value="VALIDATE" class="button button-style button-style-dark button-style-color-2">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
